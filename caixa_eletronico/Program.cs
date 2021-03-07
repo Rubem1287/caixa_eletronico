@@ -32,14 +32,14 @@ namespace caixa_eletronico
 
             Console.Write("Entre com um valor para depósito : ");
             valor = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            conta.deposito(valor);
+            conta.Deposito(valor);
             Console.WriteLine("Dados Atualizados da conta : ");
             Console.WriteLine(conta);
 
             Console.WriteLine();
             Console.Write("Entre com um valor para saque : ");
             valor = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            conta.debito(valor);
+            conta.Debito(valor);
             Console.WriteLine("Dados Atualizados da conta : ");
             Console.WriteLine(conta);
 

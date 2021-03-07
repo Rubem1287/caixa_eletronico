@@ -18,14 +18,28 @@ namespace caixa_eletronico
             Valor = valor;
         }
 
-        public void deposito(double valor)
+
+        //public Conta(int numero, string nome)
+        //{
+        //    Numero = numero;
+        //    Nome = nome;
+            
+        //}
+
+        //public Conta (int numero, string nome, double valor) : this(numero, nome)
+        //{
+        //    Valor = valor;
+        //    deposito(valor);
+        //}
+
+        public void Deposito(double valor)
         {
             Valor += valor;
         }
 
-        public void debito(double valor)
+        public void Debito(double valor)
         {
-            //valor -= 5;
+            //Valor -= valor + 5;
 
             Valor = (Valor - valor) - 5;
         }
